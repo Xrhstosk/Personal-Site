@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Το προσωπικό μου site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px;
+    }
+    button {
+      background: #0077cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Καλώς ήρθες!</h1>
+    <nav>
+      <a href="#about">Σχετικά</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Επικοινωνία</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Σχετικά με εμένα</h2>
+    <p>Είμαι φοιτητής/απόφοιτος Πληροφορικής, με ενδιαφέρον στον προγραμματισμό και το web development.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Προσωπική ιστοσελίδα</li>
+      <li>Todo List App</li>
+      <li>Portfolio με React</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Επικοινωνία</h2>
+    <p>Μπορείς να με βρεις στο email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <button onclick="alert('Ευχαριστώ που επικοινώνησες!')">Στείλε μήνυμα</button>
+  </section>
+
+</body>
+</html>
